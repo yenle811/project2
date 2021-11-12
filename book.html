@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book a Ticket</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <a href="home.html"><img src="ly.png" alt="" /></a>
+      </div>
+      <div class="nav">
+        <a href="show.html">Now Showing</a>
+        <a href="book.html">Booking</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="booking">
+      <div class="movie-container">
+        <label>Pick a movie:</label>
+        <select id="movie">
+          <option value="10">The Shape of Water ($10)</option>
+          <option value="12">Bird of Prey: Harley Quinn ($12)</option>
+          <option value="8">The Silence of the Lambs ($8)</option>
+          <option value="9">Glass ($9)</option>
+          <option value="7">Love, Rosie ($9)</option>
+          <option value="6">Call me by your name ($9)</option>
+          <option value="11">Venom ($9)</option>
+          <option value="9.5">Black Swan ($9.5)</option>
+          <option value="10">Little Women ($10)</option>
+          <option value="9">Fallen Angels ($9)</option>
+          <option value="7">I Want to Eat Your Pancreas ($7)</option>
+          <option value="11">Jujutsu Kaisen vol. 0 ($11)</option>
+        </select>
+      </div>
+
+      <div class="showcase">
+        <div class="seat type"></div>
+        <p>N/A</p>
+        <div class="seat selected type"></div>
+        <p>Selected</p>
+        <div class="seat occupied type"></div>
+        <p>Occupied</p>
+      </div>
+
+      <div class="container">
+        <div class="screen"></div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat occupied"></div>
+          <div class="seat occupied"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat occupied"></div>
+          <div class="seat occupied"></div>
+        </div>
+
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat occupied"></div>
+          <div class="seat occupied"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat occupied"></div>
+          <div class="seat occupied"></div>
+          <div class="seat occupied"></div>
+          <div class="seat"></div>
+        </div>
+      </div>
+
+      <p class="text">
+        You have selected <span id="count">0</span> seats for a price of $<span
+          id="total"
+          >0</span
+        >
+      </p>
+    </div>
+    <div class="footer" id="contact">
+      <h2>SEE US THROUGH:</h2>
+      <p class="gmail">Gmail: abcd@gmail.com</p>
+      <p class="address">
+        Address: 2236 Queen St. E <br />
+        Toronto, ON
+      </p>
+      <div class="social">
+        <a href="">Facebook</a>
+        <a href="">Instagram</a>
+        <a href="">Twitter</a>
+        <a href="">Youtube</a>
+      </div>
+    </div>
+  </body>
+</html>
